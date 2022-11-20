@@ -1,5 +1,8 @@
-#ifndef RADAR_HPP
-#define RADAR_HPP
+/// @file reg.hpp
+/// @brief main registers of radar
+
+#ifndef REG_HPP
+#define REG_HPP
 /* To communicate with the radar, the display unit sends registers with the values of the range, the filters, the focus... The first number of the register is its number, the second is always C1 - it works like a checksum - and then commences the parametrs' setting */
 
 // Checksum
@@ -36,8 +39,6 @@
 
 // operation maintain
 #define RAD_OPER_MAINTAIN 0xA0
-
-
 
 
 #endif
