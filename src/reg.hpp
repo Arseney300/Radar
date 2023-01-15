@@ -14,6 +14,8 @@
 // Turn on/off 1
 #define RAD_TURN_ON_OFF_1 0x01
 
+#define RAD_KEEP_ALIVE 0xA0
+
 // zoom level
 #define RAD_ZOOMLEVEL 0x03
 
