@@ -9,7 +9,7 @@
 namespace radar{
 namespace defines{
 
-const uint data_size = 65536; //< size of data package
+const uint data_size = 17160; //< size of data package
 
 const std::string control_ip_address = "236.6.7.10"; //< control ip address
 const uint control_port = 6680; //< control port
